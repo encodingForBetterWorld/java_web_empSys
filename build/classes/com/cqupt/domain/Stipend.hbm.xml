@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-12-17 16:48:17 by Hibernate Tools 4.3.1.Final -->
+<hibernate-mapping package="com.cqupt.domain">
+    <class name="Stipend">
+		<!-- BaseEntity里基本字段映射 -->
+		<id name="id" column="st_id">
+			<generator class="uuid" />
+		</id>
+		<property name="version" />
+		<property name="delFlag" />
+		<!-- BaseEntity里基本字段映射 -->
+        <property name="name" type="string">
+            <column name="name" length="50" />
+        </property>
+        <property name="basic" type="java.lang.Float">
+            <column name="basic" precision="12" scale="0" />
+        </property>
+        <property name="eat" type="java.lang.Float">
+            <column name="eat" precision="12" scale="0" />
+        </property>
+        <property name="house" type="java.lang.Float">
+            <column name="house" precision="12" scale="0" />
+        </property>
+        <property name="duty" type="java.lang.Float">
+            <column name="duty" precision="12" scale="0" />
+        </property>
+        <property name="scot" type="java.lang.Float">
+            <column name="scot" precision="12" scale="0" />
+        </property>
+        <property name="other" type="java.lang.Float">
+            <column name="other" precision="12" scale="0" />
+        </property>
+        <property name="granttime" type="timestamp">
+            <column name="granttime" length="19"  />
+        </property>
+        <property name="totalize" type="java.lang.Float">
+            <column name="totalize" precision="12" scale="0" />
+        </property>
+        
+		<!-- 一对多关联 -->
+		<many-to-one name="user" column="user_id" lazy="false" ></many-to-one> 
+    </class>
+</hibernate-mapping>

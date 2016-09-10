@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6"
+   name=""
+   committed-date="2015-12-15T02:01:05.193439Z"
+   url="https://172.22.117.222/svn/demo/trunk/framework/WebContent/WEB-INF/lib"
+   last-author="Teacher001"
+   kind="dir"
+   uuid="c5c26add-2c50-104b-80ee-5a6eea025641"
+   repos="https://172.22.117.222/svn/demo"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="spring-webmvc-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.768079Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="b1f92929b345565653c42f1932686a86"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:40.577954Z"/>
+<entry
+   committed-rev="6"
+   name="freemarker-2.3.22.jar"
+   text-time="2015-12-15T02:16:41.575011Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="51cca65040c41326e9b6b2806aba23ff"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:35.443660Z"/>
+<entry
+   committed-rev="6"
+   name="spring-context-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.496063Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="58271fabdea43893e51af2740037e42e"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:39.327882Z"/>
+<entry
+   committed-rev="6"
+   name="struts2-spring-plugin-2.3.24.1.jar"
+   text-time="2015-12-15T02:16:42.863084Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="51a4778b4a5351028fd61b3ea3db3337"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:41.172988Z"/>
+<entry
+   committed-rev="6"
+   name="spring-beans-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.466062Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="42d2fbea849a63ce8d424d67a3ad7a79"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:39.162873Z"/>
+<entry
+   committed-rev="6"
+   name="spring-jms-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.628071Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="2114e233e4e24ad1f481d3d463d584dd"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:40.044923Z"/>
+<entry
+   committed-rev="6"
+   name="mysql-connector-java-5.1.37-bin.jar"
+   text-time="2015-12-15T02:16:42.396058Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="ca1fb98688686375bc4e8b7db894949c"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:38.581839Z"/>
+<entry
+   committed-rev="6"
+   name="javassist-3.11.0.GA.jar"
+   text-time="2015-12-15T02:16:41.746020Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="cb8f91e65864b85c8c6f87164e3252a5"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:37.796795Z"/>
+<entry
+   committed-rev="6"
+   name="spring-tx-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.719076Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="b2683f92dcf1f7adb5402f0c122ca39b"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:40.327939Z"/>
+<entry
+   committed-rev="6"
+   name="commons-lang3-3.2.jar"
+   text-time="2015-12-15T02:16:41.456004Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="9f2013bc16457ff8dfbfbf3357060192"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:35.141643Z"/>
+<entry
+   committed-rev="6"
+   name="dom4j-1.6.1.jar"
+   text-time="2015-12-15T02:16:41.541009Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="4d8f51d3fe3900efc6e395be48030d6d"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:35.247649Z"/>
+<entry
+   committed-rev="6"
+   name="commons-io-2.2.jar"
+   text-time="2015-12-15T02:16:41.438003Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="6ad49e3e16c2342e9ee9599ce04775e6"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:35.082639Z"/>
+<entry
+   committed-rev="6"
+   name="spring-context-support-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.516065Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="7df043712f8ee4a3252e5f49482d0746"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:39.370885Z"/>
+<entry
+   committed-rev="6"
+   name="asm-3.3.jar"
+   text-time="2015-12-15T02:16:41.330997Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="968575ef15e4024d205fa6ecddec67a9"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:34.636614Z"/>
+<entry
+   committed-rev="6"
+   name="javassist-3.18.1-GA.jar"
+   text-time="2015-12-15T02:16:41.770022Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="5bb83868c87334320562af7eded65cc2"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:37.913801Z"/>
+<entry
+   committed-rev="6"
+   name="spring-aspects-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.442060Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="39f882fa33ea4c16af777eb5326c764a"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:38.714847Z"/>
+<entry
+   committed-rev="6"
+   name="jboss-transaction-api_1.2_spec-1.0.0.Final.jar"
+   text-time="2015-12-15T02:16:41.814024Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="aa7df2440f20946a61005c533dc4915c"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:37.956804Z"/>
+<entry
+   committed-rev="6"
+   name="spring-instrument-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.577068Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="c69c573e2de2ee7b25c2f937708ba779"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:39.914916Z"/>
+<entry
+   committed-rev="6"
+   name="asm-commons-3.3.jar"
+   text-time="2015-12-15T02:16:41.343997Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="47d6178194c38fc70d4e27db08ae5d10"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:34.650615Z"/>
+<entry
+   committed-rev="6"
+   name="commons-fileupload-1.3.1.jar"
+   text-time="2015-12-15T02:16:41.423002Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="ed8eec445e21ec7e49b86bf3cbcffcbc"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:35.052638Z"/>
+<entry
+   committed-rev="6"
+   name="spring-webmvc-portlet-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.789080Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="85a63bae485f274d5e802c859da38416"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:40.616956Z"/>
+<entry
+   committed-rev="6"
+   name="commons-dbcp2-2.1.1.jar"
+   text-time="2015-12-15T02:16:41.410001Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="298897b1e785b933b0522351871cf7ae"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:35.035637Z"/>
+<entry
+   committed-rev="6"
+   name="ognl-3.0.6.jar"
+   text-time="2015-12-15T02:16:42.411059Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="2a8fb06b52574e498ed256b8fc64055e"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:38.633842Z"/>
+<entry
+   committed-rev="6"
+   name="hibernate-core-4.3.11.Final.jar"
+   text-time="2015-12-15T02:16:41.696018Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="d7bbfd718762e0d44db74c9b0c2bd3d1"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:37.572782Z"/>
+<entry
+   committed-rev="6"
+   name="aspectjweaver.jar"
+   text-time="2015-12-15T02:16:41.395000Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="c7b735ff074b00b816ac6d410f2dc017"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:34.983634Z"/>
+<entry
+   committed-rev="6"
+   name="commons-logging-api-1.1.jar"
+   text-time="2015-12-15T02:16:41.482005Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="4374238076ab08e60e0d296234480837"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:35.173645Z"/>
+<entry
+   committed-rev="6"
+   name="log4j-core-2.2.jar"
+   text-time="2015-12-15T02:16:42.367056Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="5e4bca5ed20b94ab19bb65836da93f96"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:38.419830Z"/>
+<entry
+   committed-rev="6"
+   name="aopalliance-1.0.jar"
+   text-time="2015-12-15T02:16:41.316996Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="04177054e180d09e3998808efa0401c7"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:34.622613Z"/>
+<entry
+   committed-rev="6"
+   name="commons-pool2-2.4.2.jar"
+   text-time="2015-12-15T02:16:41.496006Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="62727a85e2e1bf6a756f5571d19cc71c"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:35.195646Z"/>
+<entry
+   committed-rev="6"
+   name="spring-websocket-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.810081Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="8918bd24a8230ea3ac790a9431cd6b08"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:40.682960Z"/>
+<entry
+   committed-rev="6"
+   name="spring-core-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.544066Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="d32fdda47ac7d787d10d19c0f1129d6f"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:39.848912Z"/>
+<entry
+   committed-rev="6"
+   name="asm-tree-3.3.jar"
+   text-time="2015-12-15T02:16:41.355998Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="3eeafc985d3ca624abf2d3ad549180d0"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:34.661615Z"/>
+<entry
+   committed-rev="6"
+   name="spring-instrument-tomcat-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.592069Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="30b7dd230fac8d4a62fd91d90b2f1442"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:39.922916Z"/>
+<entry
+   committed-rev="6"
+   name="spring-orm-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.669073Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="6c1992f7c64a5b1b7ee6f10def8df6c8"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:40.173931Z"/>
+<entry
+   committed-rev="6"
+   name="spring-expression-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.562067Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="28cb643d35788645f6cf50ebc6aa8dcf"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:39.903915Z"/>
+<entry
+   committed-rev="6"
+   name="spring-jdbc-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.610070Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="55c90665b184fecb089368fa3260a233"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:39.993920Z"/>
+<entry
+   committed-rev="6"
+   name="xwork-core-2.3.24.1.jar"
+   text-time="2015-12-15T02:16:42.925088Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="47b3f63f630057dacd0218362a974d22"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:41.279994Z"/>
+<entry
+   committed-rev="6"
+   name="spring-oxm-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.683074Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="9ff4221328faa41b28e2793a183d2e06"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:40.196932Z"/>
+<entry
+   committed-rev="6"
+   name="log4j-api-2.2.jar"
+   text-time="2015-12-15T02:16:42.338054Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="36062585ac1f19b94baaec4a6f0f8ecc"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:37.982805Z"/>
+<entry
+   committed-rev="6"
+   name="struts2-convention-plugin-2.3.24.1.jar"
+   text-time="2015-12-15T02:16:42.824082Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="776db520b3d016346e1538280d1e3eb3"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:41.009978Z"/>
+<entry
+   committed-rev="6"
+   name="jboss-logging-annotations-1.2.0.Beta1.jar"
+   text-time="2015-12-15T02:16:41.799024Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="938e552e319015a8863dd91284aada54"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:37.944803Z"/>
+<entry
+   committed-rev="6"
+   name="antlr-2.7.7.jar"
+   text-time="2015-12-15T02:16:41.304995Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="f8f1352c52a4c6a500b597596501fc64"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:34.607612Z"/>
+<entry
+   committed-rev="6"
+   name="jboss-logging-3.1.3.GA.jar"
+   text-time="2015-12-15T02:16:41.785023Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="1cb9780e7b361dd456429019b5455b6e"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:37.935803Z"/>
+<entry
+   committed-rev="6"
+   name="jandex-1.1.0.Final.jar"
+   text-time="2015-12-15T02:16:41.725019Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="8c14c068df8c33632ab6658ffdda292c"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:37.686788Z"/>
+<entry
+   committed-rev="6"
+   name="commons-logging-1.1.3.jar"
+   text-time="2015-12-15T02:16:41.469005Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="92eb5aabc1b47287de53d45c086a435c"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:35.160644Z"/>
+<entry
+   committed-rev="6"
+   name="spring-messaging-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.648072Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="d8fb939f80cf86449d548bd9bb172522"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:40.102926Z"/>
+<entry
+   committed-rev="6"
+   name="spring-web-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.742077Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="50f56e40c8a3ebfe2ce106c46fd02e1b"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:40.448946Z"/>
+<entry
+   committed-rev="6"
+   name="hibernate-commons-annotations-4.0.5.Final.jar"
+   text-time="2015-12-15T02:16:41.593012Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="5dadbafd7c7bc1168c10a2ba87e927a2"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:35.486662Z"/>
+<entry
+   committed-rev="6"
+   name="struts2-core-2.3.24.1.jar"
+   text-time="2015-12-15T02:16:42.849084Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="3b6d8a01af12b78c68e80997ab96b65a"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:41.152987Z"/>
+<entry
+   committed-rev="6"
+   name="spring-aop-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.429060Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="8f481086bc75e9e91a7b894dcc742f19"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:38.692846Z"/>
+<entry
+   committed-rev="6"
+   name="hibernate-jpa-2.1-api-1.0.0.Final.jar"
+   text-time="2015-12-15T02:16:41.711018Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="01b091825023c97fdfd6d2bceebe03ff"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:37.665787Z"/>
+<entry
+   committed-rev="6"
+   name="spring-test-4.2.3.RELEASE.jar"
+   text-time="2015-12-15T02:16:42.703075Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="4ec65b45ae6c51ba549b04f1d75aac7c"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:40.279937Z"/>
+</wc-entries>

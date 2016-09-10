@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6"
+   name=""
+   committed-date="2015-12-15T02:01:05.193439Z"
+   url="https://172.22.117.222/svn/demo/trunk/framework/src/resources"
+   last-author="Teacher001"
+   kind="dir"
+   uuid="c5c26add-2c50-104b-80ee-5a6eea025641"
+   repos="https://172.22.117.222/svn/demo"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="struts.xml"
+   text-time="2015-12-15T02:16:50.479520Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="2c509fa816fbc7ffbeeeb3c686cbf215"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:50.441518Z"/>
+<entry
+   committed-rev="6"
+   name="spring-bean-context.xml"
+   text-time="2015-12-15T02:16:50.453519Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="93c116f947217779e07525153ad19e90"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:50.428517Z"/>
+<entry
+   committed-rev="6"
+   name="spring-common-context.xml"
+   text-time="2015-12-15T02:16:50.466519Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="d8aea76c3d691b387651dc22d0d4dfda"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:50.434517Z"/>
+</wc-entries>

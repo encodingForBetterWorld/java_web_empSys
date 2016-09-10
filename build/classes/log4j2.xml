@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration >
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d %-5p %l [%t] - %m%n"/>
+        </Console>
+        <File name="FILE" 
+			fileName="d:/logs/log.log"
+			bufferedIO="false" 
+			advertise="true">
+			<PatternLayout pattern="%d %p %l [%t] %m%n"/>
+		</File>
+    </Appenders>
+    <Loggers>       
+        <Logger name="com.cqupt"/>
+        
+        <Root level="debug">
+            <AppenderRef ref="STDOUT"/>    
+             <AppenderRef ref="FILE"/>        
+        </Root>
+    </Loggers>
+</Configuration>

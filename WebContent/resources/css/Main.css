@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+html{
+	height:100%;
+}
+body { text-align: center; font-family:"宋体", arial;margin:0; padding:0; font-size:12px; color:#000;width:100%;height:100%;}
+div,form,img,ul,ol,li,dl,dt,dd {margin: 0; padding: 0; border: 0;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0;}
+table,td,tr,th{font-size:12px;}
+#copyright {height:34px;line-height:34px;color:#fff;}
+
+#login-content{
+	margin:20px auto;
+}
+#login-title{
+	margin: 40px auto 20px;
+	font-size:36px;;
+	color:#ffffff;
+}
+#getUserInfo{
+	font-size:16px;
+}
+#getUserInfo_0{
+	width: 80px;
+	height: 30px;
+	font-family: '微软雅黑';
+	margin: 10px 0 0 20px;
+}
+
+/* 主界面 */
+.panel{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	margin-top:-15px;
+}
+.panel-top{
+	border-radius: 10px 10px 0 0; 
+	height: 130px;
+	background: url(../images/panelbg.jpg);
+
+	text-align: center;
+	font-size: 46px;
+	line-height: 130px;
+	font-family: '微软雅黑';
+}
+.panel-comment{
+	    font-size: 14px;
+    height: 40px;
+    background: rgba(230, 225, 225, 0.59);
+    line-height: 40px;
+    text-align: left;
+    padding-left: 30px;
+}
+.panel-content{
+	height: 608px;
+	border-radius:0 0 10px 10px; 
+}
+.panel-l{
+	border-radius:0 0 0 10px;
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-image: url(../images/panelleft.jpg);
+    background-size: 100% 100%;
+}
+.panel-l ul{
+	list-style: none;
+}
+.panel-l ul li{
+	margin: 4px 0;
+}
+.panel-r{
+	width: 80%;
+	height: 100%;
+	float: right;
+	border-radius:0 0 10px 0;
+}
+#show_box{
+	margin: 20px;
+    width: 90%;
+    height: 90%;
+    border: 1px solid rgba(146, 130, 130, 0.32);
+}
+table.list th{
+	font-size:18px;
+	padding:3px;
+}
+table.list td{
+	font-size:16px;
+	padding:3px;
+}
+
+
+/* fix bug*/
+
+.ui-state-default .ui-icon {
+    background-image: url("../images/ui-icons_222222_256x240.png") !important;
+}
+
+#accordion h3{
+	font-size:16px;
+}
+#accordion a{
+	font-size:14px;
+}
+#login-title a{
+	color: rgba(0, 245, 111, 0.98);
+}
+.photo{
+	width:120px;
+	height:140px;
+	margin :10px 0 0 10px;
+}

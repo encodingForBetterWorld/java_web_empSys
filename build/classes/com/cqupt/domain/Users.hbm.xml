@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-12-17 16:48:17 by Hibernate Tools 4.3.1.Final -->
+<hibernate-mapping package="com.cqupt.domain">
+   <class name="Users">
+		<!-- BaseEntity里基本字段映射 -->
+		<id name="id" column="user_id">
+			<generator class="uuid" />
+		</id>
+		<property name="version" />
+		<property name="delFlag" />
+		<!-- BaseEntity里基本字段映射 -->
+        <property name="username" type="string">
+            <column name="username" length="50" not-null="true"/>
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="50" not-null="true"/>
+        </property>
+        <property name="sex" type="java.lang.Byte">
+            <column name="sex" />
+        </property>
+        <property name="realname" type="string">
+            <column name="realname" length="50" />
+        </property>
+        <property name="userPic" type="java.lang.Byte">
+            <column name="userPic"/>
+        </property>
+         <property name="worktype" type="java.lang.Byte">
+            <column name="worktype" />
+        </property>
+        <property name="birthday" type="timestamp">
+            <column name="birthday" length="19" />
+        </property>
+        <property name="createtime" type="timestamp">
+            <column name="createtime" length="19" />
+        </property>
+        <property name="logintime" type="timestamp">
+            <column name="logintime" length="19" />
+        </property>
+        <property name="logouttime" type="timestamp">
+            <column name="logouttime" length="19" />
+        </property>
+        <property name="isadmin" type="java.lang.Byte">
+            <column name="isadmin" />
+        </property>
+        <property name="content" type="string">
+            <column name="content" />
+        </property>
+        <property name="jobname" type="string">
+            <column name="jobname" />
+        </property>
+		<!-- 一对多关联 -->
+		<many-to-one name="job" column="job_id" lazy="false"></many-to-one> 
+		
+		<!-- 一对多关联 --><!-- inverse="true"由多方的items进行关系维护在保存时记得要把一方设在多方的对象里，否则多方里没有一方的主键关联,多对多设任意一方都可。 
+			lazy="true" 默认为true -->
+		<set name="sts" cascade="all" inverse="true" lazy="false" >
+		     <!--主表主键  -->
+			<key column="user_id"></key>
+			<one-to-many class="Stipend" />	
+		</set>
+		
+		<!-- 一对多关联 --><!-- inverse="true"由多方的items进行关系维护在保存时记得要把一方设在多方的对象里，否则多方里没有一方的主键关联,多对多设任意一方都可。 
+			lazy="true" 默认为true -->
+		<set name="inss" cascade="all" inverse="true" lazy="false">
+		     <!--主表主键  -->
+			<key column="user_id"></key>
+			<one-to-many class="Institution" />	
+		</set>
+    </class>
+</hibernate-mapping>

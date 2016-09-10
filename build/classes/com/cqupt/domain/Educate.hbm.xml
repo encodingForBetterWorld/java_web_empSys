@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-12-17 16:48:17 by Hibernate Tools 4.3.1.Final -->
+<hibernate-mapping package="com.cqupt.domain">
+   <class name="Educate">
+		<!-- BaseEntity里基本字段映射 -->
+		<id name="id" column="edu_id">
+			<generator class="uuid" />
+		</id>
+		<property name="version" />
+		<property name="delFlag" />
+		<!-- BaseEntity里基本字段映射 -->
+        <property name="name" type="string">
+            <column name="name" length="100" />
+        </property>
+        <property name="purpose" type="string">
+            <column name="purpose" />
+        </property>
+        <property name="begintime" type="timestamp">
+            <column name="begintime" length="19" />
+        </property>
+        <property name="endtime" type="timestamp">
+            <column name="endtime" length="19"  />
+        </property>
+        <property name="datum" type="string">
+            <column name="datum" />
+        </property>
+        <property name="teacher" type="string">
+            <column name="teacher" length="50" />
+        </property>
+        <property name="createtime" type="timestamp">
+            <column name="createtime" length="19"  />
+        </property>
+        <property name="effect" type="string">
+            <column name="effect" />
+        </property>
+        <property name="summarize" type="string">
+            <column name="summarize" />
+        </property>
+		<set name="jobs" cascade="save-update"   table="ENROLLMENT">
+		   <!--主表主键  -->
+			<key column="edu_id"></key>
+			<many-to-many class="Job" column="job_id"></many-to-many>
+		</set>
+    </class>
+</hibernate-mapping>

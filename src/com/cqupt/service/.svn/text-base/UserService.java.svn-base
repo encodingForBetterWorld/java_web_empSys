@@ -1,0 +1,65 @@
+/*
+ *@Project: framework 
+ *@Package: com.cqupt.service
+ *@File: UserService.java 
+ *@Date: 2015-12-11 
+ *@author: chenyongzheng
+ *@Copyright: V1.0 www.cqupt.edu.cn Inc. All rights reserved. 
+ *@Description: 本内容仅限于公司内部传阅，禁止外泄以及用于其他的商业目的 
+ */
+package com.cqupt.service;
+
+import java.util.List;
+
+import com.cqupt.common.PageBean;
+import com.cqupt.domain.User;
+
+/**
+ * 
+ * @Description: 用户注册信息业务处理类
+ * @author chenyongzheng
+ * @since 2015-12-11
+ * @see
+ */
+public interface UserService {
+	/**
+	 * @Description: 用户注册信息保存
+	 * @param user
+	 *            用户注册形象
+	 * @return User 注册用户信息返回
+	 */
+	public User saveUser(User user);
+
+	/**
+	 * @Description: 用户删除
+	 * @param userId
+	 *            用户ID
+	 */
+	public void delUser(String userId);
+
+	/**
+	 * @Description: 用户更新
+	 * @param user
+	 *            用户信息
+	 */
+	public User updateUser(User user);
+
+	  /**
+     * 
+    * @Description: 用户数据查询
+    * @param  user 查詢條件
+    * @return List<User>    返回类型 
+   
+     */
+	public List<User> queryUser(User user);
+	
+	/**
+	 * @Description: 分页查询用户信息
+	 * @param user
+	 *            查詢條件
+	 * @param pageBean
+	 *            pageBean
+	 * @return List<User> 返回类型
+	 */
+	public PageBean queryUserByPage(User user, PageBean pageBean);
+}

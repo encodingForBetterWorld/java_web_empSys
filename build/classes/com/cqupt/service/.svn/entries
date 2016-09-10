@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6"
+   name=""
+   committed-date="2015-12-15T02:01:05.193439Z"
+   url="https://172.22.117.222/svn/demo/trunk/framework/src/com/cqupt/service"
+   last-author="Teacher001"
+   kind="dir"
+   uuid="c5c26add-2c50-104b-80ee-5a6eea025641"
+   repos="https://172.22.117.222/svn/demo"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="UserService.java"
+   text-time="2015-12-15T02:16:50.332512Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="0fc2f54f9d2456a550a69e14b9a39ab8"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:50.314511Z"/>
+<entry
+   committed-rev="6"
+   name="UserServiceImpl.java"
+   text-time="2015-12-15T02:16:50.351513Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="c554213b3d1e31c1a714c417a33d8798"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:50.321511Z"/>
+</wc-entries>

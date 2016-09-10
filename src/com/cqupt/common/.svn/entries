@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6"
+   name=""
+   committed-date="2015-12-15T02:01:05.193439Z"
+   url="https://172.22.117.222/svn/demo/trunk/framework/src/com/cqupt/common"
+   last-author="Teacher001"
+   kind="dir"
+   uuid="c5c26add-2c50-104b-80ee-5a6eea025641"
+   repos="https://172.22.117.222/svn/demo"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="PageBean.java"
+   text-time="2015-12-15T02:16:49.865485Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="84f5adda826be8998d43be0d78aa6b8c"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:49.773480Z"/>
+<entry
+   committed-rev="6"
+   name="BeanUtils.java"
+   text-time="2015-12-15T02:16:49.839483Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="5b2271a90608600a29235c5df21e0e00"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:49.762479Z"/>
+<entry
+   committed-rev="6"
+   name="BaseEntity.java"
+   text-time="2015-12-15T02:16:49.812482Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="144a7ede6d9131a64ec45c7bd5d2a883"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:49.747478Z"/>
+<entry
+   committed-rev="6"
+   name="GlobalConst.java"
+   text-time="2015-12-15T02:16:49.852484Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="8712881af14d842dd09b034ffe7a28b1"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:49.767479Z"/>
+<entry
+   committed-rev="6"
+   name="BaseAction.java"
+   text-time="2015-12-15T02:16:49.785480Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="d779cbc43f76e28521ceb571f0b8cf4a"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:49.732477Z"/>
+<entry
+   committed-rev="6"
+   name="BaseException.java"
+   text-time="2015-12-15T02:16:49.827483Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="81a666f8abea03dca56390ac0bbb0a9e"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:49.755479Z"/>
+<entry
+   committed-rev="6"
+   name="BaseDao.java"
+   text-time="2015-12-15T02:16:49.797481Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="f616f8b4b4518db55877549f4d7114fd"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:49.739478Z"/>
+</wc-entries>

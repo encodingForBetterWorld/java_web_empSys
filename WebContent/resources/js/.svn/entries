@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6"
+   name=""
+   committed-date="2015-12-15T02:01:05.193439Z"
+   url="https://172.22.117.222/svn/demo/trunk/framework/WebContent/resources/js"
+   last-author="Teacher001"
+   kind="dir"
+   uuid="c5c26add-2c50-104b-80ee-5a6eea025641"
+   repos="https://172.22.117.222/svn/demo"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="jquery-1.11.3.min.js"
+   text-time="2015-12-15T02:16:43.432117Z"
+   committed-date="2015-12-15T02:01:05.193439Z"
+   checksum="895323ed2f7258af4fae2c738c8aea49"
+   last-author="Teacher001"
+   kind="file"
+   prop-time="2015-12-15T02:16:43.417116Z"/>
+</wc-entries>

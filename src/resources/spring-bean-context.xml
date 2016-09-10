@@ -1,0 +1,33 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="eduDao" class="com.cqupt.dao.EducateDaoImpl" parent="baseDao">
+	</bean>
+	<bean id="educateService" class="com.cqupt.service.EducateServiceImpl">
+		<property name="eduDao" ref="eduDao"></property>
+	</bean>
+	<bean id="userDao" class="com.cqupt.dao.UsersDaoImp" parent="baseDao">
+	</bean>
+	<bean id="userService" class="com.cqupt.service.UserServiceImp">
+		<property name="userDao" ref="userDao"></property>
+	</bean>
+    <bean id="jobDao" class="com.cqupt.dao.JobDaoImp" parent="baseDao">
+	</bean>
+	<bean id="jobService" class="com.cqupt.service.JobServiceImp">
+		<property name="jobDao" ref="jobDao"></property>
+	</bean>
+	<bean id="stDao" class="com.cqupt.dao.StDaoImp" parent="baseDao">
+	</bean>
+	<bean id="stService" class="com.cqupt.service.StServiceImp">
+		<property name="stDao" ref="stDao"></property>
+	</bean>
+	<bean id="insDao" class="com.cqupt.dao.InsDaoImp" parent="baseDao">
+	</bean>
+	<bean id="insService" class="com.cqupt.service.InsServiceImp">
+		<property name="insDao" ref="insDao"></property>
+	</bean>
+	
+	
+</beans>
